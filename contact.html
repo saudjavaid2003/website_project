@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>university website </title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+
+<body>
+    <section class="sub-header">
+        <!-- <h1>about us</h1> -->
+        <nav>
+            <a href="index.html"> <img src="eduford_img/logo.png" alt=""></a>
+            <div class="nav-links" id="nav-links">
+                <i class="ri-close-fill" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="index.html">home</a></li>
+                    <li><a href="about.html">about</a></li>
+                    <li><a href="courses.html">course</a></li>
+                    <li><a href="blog.html">blog</a></li>
+                    <li><a href="contact.html">contact</a></li>
+                </ul>
+            </div>
+            <i class="ri-menu-fill" onclick="showmenu()"></i>
+        </nav>
+        <h1 class="about">contact us</h1>
+    </section>
+    <section class="location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3404.048973572719!2d73.07746020853094!3d31.440318674143267!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x392242871e7b6fa1%3A0x8ca24cfe26cf6d3b!2sKissan%20Hall!5e0!3m2!1sen!2s!4v1695793356379!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+    <section class="contact-us">
+        <div class="row">
+        <div class="contact-col">
+            <div>
+                <i class="ri-home-office-fill"></i>
+                <span><h5>kissan hall fsd</h5></span><br>
+                <p>faisalbad punjab</p>
+
+            </div>
+            <div>
+                <i class="ri-phone-fill"></i>
+                <span><h5>03320129080</h5></span><br>
+                <br><p>saud javaid akram</p>
+
+            </div>
+            <div>
+                <i class="ri-mail-lock-line"></i>
+                <span><h5>@soodisaud</h5></span><br>
+                <p>wmail us for further info</p>
+
+            </div>
+        </div>
+        <div class="contact-col">
+            <form action="formhandler.php" method="post">
+                <input type="text" placeholder="Name" required name="name">
+                <input type="text" placeholder="enter your email" required name="email">
+                <input type="text" placeholder="Enter your subject" required name="subject">
+                <textarea  rows="8" placeholder="Mesage" name="message" ></textarea>
+                <button type="submit">Send Message</button>
+
+
+
+            </form>
+        </div>
+        </div>
+    </section>
+  
+
+    <section class="footer">
+        <h4>about us</h4>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. In eaque fugiat eligendi obcaecati voluptatibus ex illum ut omnis, <br>dolor odio dolorem, mollitia rem?</p>
+        <div class="icons">
+            <i class="ri-facebook-fill"></i>
+            <i class="ri-instagram-fill"></i>
+            <i class="ri-twitter-fill"></i>
+            <i class="ri-snapchat-fill"></i>
+            <i class="ri-linkedin-fill"></i>
+        </div>
+        <p>made with <i class="ri-heart-fill"></i>saud javaid</p>
+    </section>
+    
+</body>
+<script>
+    var navlinks = document.getElementById("nav-links")
+    function showmenu() {
+        navlinks.style.right = "0"
+    }
+    function hidemenu() {
+        navlinks.style.right = "-200px"
+    }
+</script>
+
+</html>

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>university website </title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+
+<body>
+    <section class="sub-header">
+        <!-- <h1>about us</h1> -->
+        <nav>
+            <a href="index.html"> <img src="eduford_img/logo.png" alt=""></a>
+            <div class="nav-links" id="nav-links">
+                <i class="ri-close-fill" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="index.html">home</a></li>
+                    <li><a href="about.html">about</a></li>
+                    <li><a href="courses.html">course</a></li>
+                    <li><a href="blog.html">blog</a></li>
+                    <li><a href="contact.html">contact</a></li>
+                </ul>
+            </div>
+            <i class="ri-menu-fill" onclick="showmenu()"></i>
+        </nav>
+        <h1 class="about">Our courses</h1>
+ 
+    <!-- -------courses---- -->
+    <section class="courses">
+        <h1>courses we offer</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque eius nostrum iure!</p>
+        <div class="row">
+            <div class="course-col">
+                <h3>intermediate</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos velit quam saepe. Veniam repellendus
+                    culpa magnam, natus dolore doloremque delectus! Numquam, debitis minus.</p>
+
+            </div>
+            <div class="course-col">
+                <h3>bachelors</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos velit quam saepe. Veniam repellendus
+                    culpa magnam, natus dolore doloremque delectus! Numquam, debitis minus.</p>
+
+            </div>
+            <div class="course-col">
+                <h3>post graduate</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos velit quam saepe. Veniam repellendus
+                    culpa magnam, natus dolore doloremque delectus! Numquam, debitis minus.</p>
+
+            </div>
+        </div>
+
+    </section>
+    <section class="facilities">
+        <h1>Our Facilities</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non veritatis odio a molestiae.</p>
+        <div class="row">
+            <div class="facilities-col">
+                <img src="eduford_img/library.png" alt="">
+                <h3>World Class Libaray</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam sed amet sint et iste!</p>
+            </div>
+            <div class="facilities-col">
+                <img src="eduford_img/basketball.png" alt="">
+                <h3>playing area</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam sed amet sint et iste!</p>
+            </div>
+            <div class="facilities-col">
+                <img src="eduford_img/cafeteria.png" alt="">
+                <h3>Canteen</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam sed amet sint et iste!</p>
+            </div>
+        </div>
+    </section>
+    <section class="footer">
+        <h4>about us</h4>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. In eaque fugiat eligendi obcaecati voluptatibus ex illum ut omnis, <br>dolor odio dolorem, mollitia rem?</p>
+        <div class="icons">
+            <i class="ri-facebook-fill"></i>
+            <i class="ri-instagram-fill"></i>
+            <i class="ri-twitter-fill"></i>
+            <i class="ri-snapchat-fill"></i>
+            <i class="ri-linkedin-fill"></i>
+        </div>
+        <p>made with <i class="ri-heart-fill"></i>saud javaid</p>
+    </section>
+    
+</body>
+<script>
+    var navlinks = document.getElementById("nav-links")
+    function showmenu() {
+        navlinks.style.right = "0"
+    }
+    function hidemenu() {
+        navlinks.style.right = "-200px"
+    }
+</script>
+
+</html>

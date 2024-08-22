@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>university website </title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+
+<body>
+    <section class="sub-header">
+        <!-- <h1>about us</h1> -->
+        <nav>
+            <a href="index.html"> <img src="eduford_img/logo.png" alt=""></a>
+            <div class="nav-links" id="nav-links">
+                <i class="ri-close-fill" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="index.html">home</a></li>
+                    <li><a href="about.html">about</a></li>
+                    <li><a href="courses.html">course</a></li>
+                    <li><a href="blog.html">blog</a></li>
+                    <li><a href="contact.html">contact</a></li>
+                </ul>
+            </div>
+            <i class="ri-menu-fill" onclick="showmenu()"></i>
+        </nav>
+        <h1 class="about">Our certificates and online progress</h1>
+    </section>
+    <!-- -----------blog--------- -->
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="eduford_img/certificate.jpg" alt="">
+        <h1 class="about">Our certificates and online progress</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque voluptatibus omnis ex sit, dolore voluptas culpa ipsam voluptates rerum cum deserunt ut facilis id.</p><br>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque vero sunt doloremque quas, sit temporibus et quam at, quibusdam dolor necessitatibus est nostrum sapiente quidem!</p><br>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia aspernatur perspiciatis tenetur excepturi sapiente commodi. Repudiandae iusto dignissimos fugiat dolorem molestias, dolor ipsum exercitationem.</p><br>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut consectetur dolores nesciunt qui molestiae dolorum molestias eum nisi odit.</p>
+        <div class="comment-box">
+            <h3>Leave a comment</h3>
+            <form class="comment-form">
+                <input type="text" placeholder="enter name">
+                <input type="text"placeholder ="enter email">
+                <textarea rows="5" placeholder="your comment"></textarea>
+                <button type="submit" class="blog-button" aria-placeholder="post a comment">post comment</button>
+            </form>
+        </div>
+            </div>
+            <div class="blog-right">
+                <h3>Post categories</h3>
+                <div>
+                    <span>Busniess Analytics</span>
+                    <span class="spa">21</span>
+                    <br>
+                    <span>Data science</span>
+                    <span class="spa">12</span><br>
+                    <span>computer science</span>
+                    <span class="spa">26</span><br>
+                    <span>mechancial eng</span>
+                    <span class="spa">25</span><br>
+                    <span>electrical emg</span>
+                    <span class="spa">24</span><br>
+                    <span>Busniess Analytics</span>
+                    <span class="spa">23</span><br>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="footer">
+        <h4>about us</h4>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. In eaque fugiat eligendi obcaecati voluptatibus ex illum ut omnis, <br>dolor odio dolorem, mollitia rem?</p>
+        <div class="icons">
+            <i class="ri-facebook-fill"></i>
+            <i class="ri-instagram-fill"></i>
+            <i class="ri-twitter-fill"></i>
+            <i class="ri-snapchat-fill"></i>
+            <i class="ri-linkedin-fill"></i>
+        </div>
+        <p>made with <i class="ri-heart-fill"></i>saud javaid</p>
+    </section>
+    
+</body>
+<script>
+    var navlinks = document.getElementById("nav-links")
+    function showmenu() {
+        navlinks.style.right = "0"
+    }
+    function hidemenu() {
+        navlinks.style.right = "-200px"
+    }
+</script>
+
+</html>
